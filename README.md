@@ -1,8 +1,10 @@
 # xfreeRDP-usage
 
+Official code site: https://www.freerdp.com/
 
+### Usage:
 ```bash
-# install with
+# in ubuntu install from official ubuntu repo with
 sudo apt install freerdp2-x11
 # or freerdp2-wayland ... depending on your OS setting
 

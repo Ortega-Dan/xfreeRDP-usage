@@ -10,7 +10,10 @@ sudo apt install freerdp2-x11
 
 # use with:
 # use /f for full screen or /m for multiple screen
-xfreerdp /f /clipboard /u:myUserName /v:ipOrHostname /drive:Downloads,/home/myLinuxUser/Downloads
+xfreerdp /f /clipboard /u:myUserName /v:ipOrHostname 
+
+# optionally add local directory as network shared drive with:
+# /drive:Downloads,/home/myLinuxUser/Downloads
 
 # optionally add sound support with options: 
 # /microphone:sys:pulse /sound:sys:pulse
